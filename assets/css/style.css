@@ -9,14 +9,40 @@
 .ui-color-menu-home {
     background-color: #e67e22;
 }
+
 .ui-color-menu-resume {
     background-color: #9b59b6;
 }
+
 .ui-color-menu-contact {
     background-color: #3498db;
 }
+
 .ui-color-menu-download {
     background-color: #525252;
+}
+
+/* --------------------------- Special paddings/margin/text --------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* --------------------------- Headings --------------------- */
@@ -65,11 +91,60 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 1.5rem;
     padding: 0;
 }
 
 .menuitem {
-    
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* ------------------------ Hover.css -------------------- */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+
+}
+
+/* --------------------------- Footer --------------------- */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
