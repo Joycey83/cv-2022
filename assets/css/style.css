@@ -268,4 +268,44 @@ footer {
     width: 60%;
 }
 
-/* --------------------------- Progress Bar --------------------- */
+/* --------------------------- Skills --------------------- */
+
+.progress-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-top: 12px;
+}
+
+.progress {
+    background-color: rgba(25, 25, 25, 0.2);
+    height: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.progress-value {
+    font-size: 0.85rem;
+    color: #fafafa;
+    
+}
+
+.progress-bar-1 {
+    background-color:#228B22;
+}
+
+.progress-bar-2 {
+    background-color: #EEC84C;
+}
+
+.progress-bar-3 {
+    background-color: #CB3824;
+}
+
+.progress-bar-4 {
+    background-color: #3B0D84;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
