@@ -34,6 +34,14 @@
     background-color: #3498db;
 }
 
+.ui-color-menu-github {
+    background-color: #1c4a6c;
+}
+
+.ui-color-menu-interest {
+    background-color: #CB3824;
+}
+
 .ui-color-menu-download {
     background-color: #525252;
 }
@@ -119,6 +127,7 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+    
 }
 
 .menu-container {
@@ -171,6 +180,8 @@ header {
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+  
+    
 
 }
 
