@@ -194,19 +194,19 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 1.1rem;
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
+    font-size: 18px;
     padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
 }
 
 .social-links {
@@ -218,7 +218,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 0.85rem;
+    font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -227,7 +227,6 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
 
 .social-links li a i:hover {
@@ -235,7 +234,8 @@ footer {
 }
 
 #footer-details {
-    padding: 22px;
+    padding: 30px 30px;
+    margin-left: 75px;
 }
 
 /* --------------------------- Three reasons --------------------- */
